@@ -1,0 +1,30 @@
+{
+  "name": "cli-backend",
+  "version": "0.1.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": {
+    "name": "Giovanna Garcia Basilio",
+    "email": "ggarciabas@gmail.com",
+    "url": "euelecavaloaco.github.io"
+  },
+  "maintainers": [
+    "Giovanna Garcia Basilio <ggarciabas@gmail.com> (euelecavaloaco.github.io)"
+  ],
+  "dependencies": {
+    "react-controller": "git+https://github.com/pilotandoparavida/react-controller.git#master",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react-model": "git+https://github.com/pilotandoparavida/react-model.git#master",
+    "mongoose": "^5.7.3"
+  },
+  "devDependencies": {
+    "react-controller-dev": "file:../react-controller",
+    "react-model-dev": "file:../react-model",
+    "nodemon": "^1.19.3"
+  }
+}
