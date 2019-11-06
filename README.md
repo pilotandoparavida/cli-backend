@@ -1,4 +1,12 @@
-## Pilotando Para Vida
+# Pilotando Para Vida
+
+> Pilotando para Vida, um projeto que visa proporcionar a todos os motociclistas o aprimoramento de técnicas de pilotagem.
+
+## Repositório
+
+Aqui está a implementação do servidor de acesso para clientes.
+
+## Módulos utilizados
 
 ```
 1- mkdir backend
@@ -17,5 +25,3 @@
 11- create-react-app admin
 12- yarn add gh-pages
 ```
-
-https://www.githubstatus.com
