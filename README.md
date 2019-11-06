@@ -15,4 +15,7 @@
 9- yarn add cors
 10- yarn add react-router-dom
 11- create-react-app admin
+12- yarn add gh-pages
 ```
+
+https://www.githubstatus.com
