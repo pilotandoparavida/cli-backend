@@ -17,10 +17,10 @@
     "Giovanna Garcia Basilio <ggarciabas@gmail.com> (euelecavaloaco.github.io)"
   ],
   "dependencies": {
-    "react-controller": "git+https://github.com/pilotandoparavida/react-controller.git#production",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "react-model": "git+https://github.com/pilotandoparavida/react-model.git#production",
-    "mongoose": "^5.7.3"
+    "mongoose": "^5.7.3",
+    "react-controller": "git+https://github.com/pilotandoparavida/react-controller.git#production",
+    "react-model": "git+https://github.com/pilotandoparavida/react-model.git#production"
   }
 }
