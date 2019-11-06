@@ -22,10 +22,5 @@
     "express": "^4.17.1",
     "react-model": "git+https://github.com/pilotandoparavida/react-model.git#master",
     "mongoose": "^5.7.3"
-  },
-  "devDependencies": {
-    "react-controller-dev": "file:../react-controller",
-    "react-model-dev": "file:../reac-model",
-    "nodemon": "^1.19.3"
   }
 }
