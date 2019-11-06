@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "private": true,
   "license": "MIT",
@@ -17,10 +17,10 @@
     "Giovanna Garcia Basilio <ggarciabas@gmail.com> (euelecavaloaco.github.io)"
   ],
   "dependencies": {
-    "react-controller": "git+https://github.com/pilotandoparavida/react-controller.git#master",
+    "react-controller": "git+https://github.com/pilotandoparavida/react-controller.git#production",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "react-model": "git+https://github.com/pilotandoparavida/react-model.git#master",
+    "react-model": "git+https://github.com/pilotandoparavida/react-model.git#production",
     "mongoose": "^5.7.3"
   }
 }
