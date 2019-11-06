@@ -1,7 +1,7 @@
 const express = require('express');
-let path_controller = 'controller_ppv'
+let path_controller = 'react-controller'
 if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
-    path_controller = 'controller_ppv_dev';
+    path_controller = 'react-controller-dev';
 } 
 const {AlunoController, AlunoTurmaController, NegarInscricaoController, AceitarInscricaoController, LoginController} = require(path_controller);
 const routes = express.Router();

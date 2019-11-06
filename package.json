@@ -2,6 +2,7 @@
   "name": "backend",
   "version": "0.1.0",
   "main": "index.js",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js",
@@ -16,15 +17,15 @@
     "Giovanna Garcia Basilio <ggarciabas@gmail.com> (euelecavaloaco.github.io)"
   ],
   "dependencies": {
-    "controller_ppv": "git+https://ggb-heroku:9odvTyy3jpG33jje@github.com/ggarciabas/controller_ppv.git#master",
+    "react-controller": "git+https://github.com/pilotandoparavida/react-controller.git#master",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "model_ppv": "git+https://ggb-heroku:9odvTyy3jpG33jje@github.com/ggarciabas/model_ppv.git#master",
+    "react-model": "git+https://github.com/pilotandoparavida/react-model.git#master",
     "mongoose": "^5.7.3"
   },
   "devDependencies": {
-    "controller_ppv_dev": "file:../controller_ppv",
-    "model_ppv_dev": "file:../model_ppv",
+    "react-controller-dev": "file:../react-controller",
+    "react-model-dev": "file:../reac-model",
     "nodemon": "^1.19.3"
   }
 }
