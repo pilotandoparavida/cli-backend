@@ -37,9 +37,9 @@ body-parser@1.19.0:
     type-is "~1.6.17"
 
 bson@^1.1.1, bson@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.1.tgz#4330f5e99104c4e751e7351859e2d408279f2f13"
-  integrity sha512-jCGVYLoYMHDkOsbwJZBCqwMHyH4c+wzgI9hG7Z6SZJRXWr+x58pdIbm2i9a/jFGCkRJqRUr8eoI7lDWa0hTkxg==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.2.tgz#584e72d809f248678a1aa466c0aedb6df7c25ae0"
+  integrity sha512-oSKfIoJlJ2AnSD8et9z6CTAv8lCXtEGOpe8j6E3PNNKxewADHGA5nKS3Br/DkoNgSeQUu9tKnpLKGSbYBJ3tow==
 
 bytes@3.1.0:
   version "3.1.0"
@@ -386,14 +386,14 @@ raw-body@2.4.0:
 
 "react-controller@git+https://github.com/pilotandoparavida/react-controller.git#production":
   version "0.2.0"
-  resolved "git+https://github.com/pilotandoparavida/react-controller.git#38d48ba8af0b86a0ea048dafe90e39befdf7bc70"
+  resolved "git+https://github.com/pilotandoparavida/react-controller.git#993e4f141018f9e0a50cefe5b550d360f3a1fb3b"
   dependencies:
     mongoose "^5.7.3"
     react-model "git+https://github.com/pilotandoparavida/react-model.git#production"
 
 "react-model@git+https://github.com/pilotandoparavida/react-model.git#production":
   version "0.2.0"
-  resolved "git+https://github.com/pilotandoparavida/react-model.git#c0bd7982127a4d9f66fb6e1deee3e94c69007fd3"
+  resolved "git+https://github.com/pilotandoparavida/react-model.git#a150e46f72e4d20882adaa62f0e9b61b46364639"
   dependencies:
     mongoose "^5.7.3"
 
