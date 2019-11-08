@@ -3,7 +3,7 @@ let path_controller = 'react-controller'
 if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     path_controller = 'react-controller-dev';
 } 
-const {AlunoController, AlunoTurmaController, NegarInscricaoController, AceitarInscricaoController, LoginController} = require(path_controller);
+const {AlunoController, AlunoTurmaController, NegarInscricaoController, AceitarInscricaoController, LoginController, TurmaController} = require(path_controller);
 const routes = express.Router();
 
 routes.get('/', (req, res) =>{
@@ -12,6 +12,8 @@ routes.get('/', (req, res) =>{
 routes.post('/aluno/cadastro', AlunoController.store); 
 
 routes.get('/aluno/turma', AlunoTurmaController.show);
+
+routes.get('/turma/:turma_id', TurmaController.show);
 
 routes.get('/aluno/turma/negar', NegarInscricaoController.store);
 routes.get('/aluno/turma/aceitar', AceitarInscricaoController.store);

@@ -8,9 +8,9 @@ const mongoose_key = process.env.MONGOOSE_KEY;
 
 async function dataBaseConnection() {
     let mongoose_connection = `mongodb+srv://${mongoose_user}:${mongoose_key}@${mongoose_url}/${mongoose_db}?${mongoose_conf}`;
-    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
-        mongoose_connection = `mongodb://${mongoose_url}/${mongoose_db}?${mongoose_conf}`;
-    }
+    // if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+    //     mongoose_connection = `mongodb://${mongoose_url}/${mongoose_db}?${mongoose_conf}`;
+    // }
 
     console.log("CONNECTING TO: " + mongoose_connection);
     try {
